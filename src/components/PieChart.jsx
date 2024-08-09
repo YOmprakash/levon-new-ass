@@ -33,7 +33,7 @@ const PieChart = () => {
   if (error) return <p>{error}</p>;
 
   return (
-    <div>
+    <div className="shadow-md p-2 ">
       <h2>Distribution of Schools and Colleges</h2>
       <Pie
         style={{ width: "400px", height: "100px" }}

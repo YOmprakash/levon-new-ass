@@ -39,7 +39,7 @@ const BarChart = () => {
   if (error) return <p>{error}</p>;
 
   return (
-    <div>
+    <div className='shadow-md p-2'>
       <h2>Number of Students by Grade</h2>
       <Bar
         data={chartData}
