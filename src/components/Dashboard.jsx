@@ -27,8 +27,8 @@ const Dashboard = () => {
 
   return (
     <div className="p-6">
-      <div className="flex justify-between items-center text-blue-500 mb-6">
-        <h1 className="text-2xl font-semibold text-blue-500">Overview</h1>
+      <div className="flex flex-col md:flex-row justify-between items-center text-blue-500 mb-6">
+        <h1 className="text-2xl font-semibold text-blue-500 mb-4 md:mb-0">Overview</h1>
         <div className="flex space-x-4">
           <div className="relative">
             <div
