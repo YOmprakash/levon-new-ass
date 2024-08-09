@@ -17,13 +17,12 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
         isSidebarOpen ? "translate-x-0" : "-translate-x-full"
       } lg:static fixed inset-y-0 left-0 w-64 z-20`}
     >
-      <button
-        onClick={() => toggleSidebar()}
-        className="text-white p-4 absolute self-end top-0 right-0"
+  <button
+        onClick={toggleSidebar}
+        className="md:hidden text-white p-4 absolute top-0 right-0"
       >
         <FaTimes size={24} />
       </button>
-
       <div className="p-4 flex items-center justify-center">
         <img
           src={Logo}
